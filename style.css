@@ -42,7 +42,7 @@ a {
 }
 
 .card__product-img::after {
-	content: url(/images/icon-view.svg);
+	content: url(../images/icon-view.svg);
 	background: hsl(178, 100%, 50%, .5);
 	position: absolute;
 	inset: 0;
