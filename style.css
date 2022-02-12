@@ -17,6 +17,15 @@ body {
 	align-items: center;
 }
 
+.container {
+	margin: 0 auto;
+	max-width: 1440px;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 a {
 	text-decoration: none;
 }
@@ -27,6 +36,7 @@ a {
 	background-color: hsl(216, 50%, 16%);
 	max-width: 350px;
 	padding: 20px;
+	margin: 50px;
 	border-radius: 20px;
 	box-shadow: 3px 14px 28px rgba(0,0,0,0.25),
 				3px 10px 10px rgba(0,0,0,0.22);
@@ -34,9 +44,8 @@ a {
 
 .card__product-img {
 	position: relative;
-	/* max-width: 300px; */
+	max-width: 300px;
 	border-radius: 10px;
-	/* margin-bottom: 17px; */
 	overflow: hidden;
 	cursor: pointer;
 }
@@ -70,8 +79,8 @@ a {
 
 .card__title {
 	color: hsl(0, 0%, 100%);
-	font-size: 18px;
 	font-weight: 600;
+	margin: 0;
 	margin-bottom: 17px;
 }
 
@@ -82,7 +91,7 @@ a {
 .card__text {
 	color: hsl(215, 51%, 70%);
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 300;
 	margin: 0;
 	margin-bottom: 17px;
 	line-height: 20px;
@@ -101,7 +110,7 @@ a {
 }
 
 .card__icon {
-	margin-right: 6px;
+	margin-right: 5px;
 }
 
 .card__countdown {
@@ -110,7 +119,6 @@ a {
 
 .card__footer {
 	display: flex;
-	/* justify-content: space-between; */
 	align-items: center;
 	margin-bottom: 17px;
 }
